@@ -1,0 +1,38 @@
+
+.start{
+    background-color: rgb(124, 238, 124);
+    color:white;
+    cursor: pointer;
+}
+.pause{
+    background-color: rgb(46, 45, 45);
+    color:white;
+    cursor: pointer;
+}
+.reset{
+    background-color: rgb(232, 67, 67);
+    color:white;
+    cursor: pointer;
+}
+body{
+    background-color:rgb(23, 190, 140);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    margin-top:0px;
+    font-size: 100px;
+    color:rgb(247, 240, 244);
+}
+.buttons button{
+    width:100px;
+    font-size: 30px;
+    border:none;
+    margin:10px;
+    padding:5px;
+    border-radius: 10px;
+}
